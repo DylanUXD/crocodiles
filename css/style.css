@@ -55,3 +55,84 @@ blockquote {
     hanging-punctuation: first;
     text-indent: -0.3rem;
 }
+
+/*-- Styling Links --*/
+a {
+    color: #795832;
+    text-decoration: none;
+    border-bottom: 1.25px dotted;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #AD8200;
+}
+
+/*-- Navigation --*/
+.responsivenav {
+    background: #4b2800;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 2rem;
+    color: #f7f7f7;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    padding-left: 35px;
+}
+
+nav {
+    display: flex;
+    padding: 1.5rem 0;
+}
+
+nav ul {
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding-right: 70px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
+
+nav a {
+    border-bottom: none;
+    color: #f7f7f7;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #AD8200;
+    transition: all 0.3s ease-in-out;
+}
+
+/*-- Styling the footer --*/
+
+footer {
+    background: #333333;
+    color: #f7f7f7;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 2rem 0;
+}
+
+footer a {
+    color: #AD8200;
+}
+
+footer a:hover {
+    color: #795832;
+}
+
+.light {
+    background: #fff4d3;
+    padding: 1rem 0;
+}
