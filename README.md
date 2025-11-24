@@ -10,4 +10,4 @@ Adding CSS
 
 [Version 3](https://dylanuxd.github.io/crocodiles/index_three.html)
 *24th November 2025*
-Added HTML lists & hyperlinks
+Adding Navigation, Footer, Lists & Links
