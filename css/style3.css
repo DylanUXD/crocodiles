@@ -1,0 +1,160 @@
+body {
+    background: #f7f7f7;
+    color: #333333;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 300;
+}
+
+section, header {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+section, header {
+    margin-bottom: 5rem;
+}
+
+header h1, h2, blockquote {
+    font-family: "Playfair Display", serif;
+    color: #795832;
+}
+
+header h1 {
+    font-size: 4.768rem;
+    line-height: 1;
+    color: #AD8200;
+    margin: 5rem 0 1rem 0;
+}
+
+h2 {
+    font-size: 1.562rem;
+}
+
+header h2 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 300;
+    color: #333333;
+    font-style: oblique;
+    margin-bottom: 3rem;
+}
+
+p {
+    line-height: 1.6;
+}
+
+header p {
+    font-size: 1.250rem;
+    font-family: "Playfair Display", serif;
+    color: #795832;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.3rem;
+    hanging-punctuation: first;
+    text-indent: -0.3rem;
+}
+
+hr {
+    margin: 3rem 0 5rem 0;
+}
+
+/*-- Styling Links --*/
+a {
+    color: #795832;
+    text-decoration: none;
+    border-bottom: 1.25px dotted;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #AD8200;
+}
+
+/*-- Navigation --*/
+.responsivenav {
+    background: #4b2800;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 2rem;
+    color: #f7f7f7;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    padding-left: 35px;
+}
+
+nav {
+    display: flex;
+    padding: 1.5rem 0;
+}
+
+nav ul {
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding-right: 70px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
+
+nav a {
+    border-bottom: none;
+    color: #f7f7f7;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #AD8200;
+    transition: all 0.3s ease-in-out;
+}
+
+/*-- Styling the footer --*/
+
+footer {
+    background: #333333;
+    color: #f7f7f7;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 2rem 0;
+}
+
+footer a {
+    color: #AD8200;
+}
+
+footer a:hover {
+    color: #795832;
+}
+
+.light {
+    background: #f0e3c1;
+    padding: 1rem 0;
+}
+
+/*-- Adding responsive element to images --*/
+.gridimage {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+/*-- Adding Media Queries for different Devices --*/
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 4rem;
+    }
+}
+
+.gridimage {
+    row-gap: 10px;
+}
